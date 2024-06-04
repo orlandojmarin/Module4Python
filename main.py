@@ -6,7 +6,7 @@
 # define the greetUserByName function
 def greetUserByName():
     name = input("Hello! What is your name?\n")
-    print("Hello, " + name + "!")
+    print(f"Hello, {name}!")
 
 
 # call greetUserByName function
